@@ -2,21 +2,21 @@ Script to manage the [fast.ai](https://github.com/fastai/courses) network infras
 
 # Setup
 
-- [Install Terraform](https://www.terraform.io/intro/getting-started/install.html)
-- Create a key-pair 
+[Install Terraform](https://www.terraform.io/intro/getting-started/install.html)
+Create a key-pair 
 ```
 $ ssh-keygen
 Generating public/private rsa key pair.
 Enter file in which to save the key (~/.ssh/id_rsa): ~/.ssh/fastai
 $ ssh-add ~/.ssh/fastai
 ```
-- Clone this repo
+Clone this repo
 ```
 $ git clone https://github.com/zarak/terrafastai.git
 ```
-- Set the appropriate variables by running setup_t2.sh for a CPU based instance, or setup_p2.sh for a GPU based
+Set the appropriate variables by running setup_t2.sh for a CPU based instance, or setup_p2.sh for a GPU based
    instance
-- Apply configuration
+Run the command `terraform apply` from the terrafastai directory
 ```
 $ terraform apply
 ```
