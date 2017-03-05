@@ -16,5 +16,3 @@ else
 fi
 
 export TF_VAR_instance_type="t2.xlarge"
-
-/usr/local/terraform/bin/terraform plan
