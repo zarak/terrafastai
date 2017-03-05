@@ -5,9 +5,9 @@ Script to manage the [fast.ai](https://github.com/fastai/courses) network infras
 1. [Install Terraform](https://www.terraform.io/intro/getting-started/install.html)
 2. Create a key-pair  
     ```
-    $ ssh-keygen
-    Generating public/private rsa key pair.
-    Enter file in which to save the key (~/.ssh/id_rsa): ~/.ssh/fastai
+    $ ssh-keygen  
+    Generating public/private rsa key pair.  
+    Enter file in which to save the key (~/.ssh/id_rsa): ~/.ssh/fastai  
     $ ssh-add ~/.ssh/fastai
     ```
 3. Clone this repo  
