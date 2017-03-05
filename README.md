@@ -18,7 +18,7 @@ Script to manage the [fast.ai](https://github.com/fastai/courses) network infras
     ```
 4. Set the appropriate variables by running setup_t2.sh for a CPU based instance, or setup_p2.sh for a GPU based
    instance
-5. You may wish to create a file named `terraform.tfvars` containing some variables. For example,   
+5. You may wish to create a file named `terraform.tfvars` containing your AWS credentials and the path to your SSH key; but make sure you add it to your `.gitignore`. For example,   
 
     ```
     aws_access_key = ""  
