@@ -49,3 +49,8 @@ resource "aws_key_pair" "auth" {
     key_name = "${var.aws_key_name}"
     public_key = "${file(var.aws_key_path)}"
 }
+
+resource "aws_eip_association" "fastai" {
+    instance_id = "${aws_instance.fastai.id}"
+    allocation_id = "${aws_eip.fastai.id}"
+}

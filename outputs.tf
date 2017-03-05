@@ -27,3 +27,11 @@ output "routeTableAssoc" {
 output "instanceId" {
     value = "${aws_instance.fastai.id}"
 }
+
+output "allocAddr" {
+    value = "${aws_eip.fastai.id}"
+}
+
+output "assocId" {
+    value = "${aws_eip_association.fastai.association_id}"
+}
