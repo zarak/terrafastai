@@ -3,7 +3,7 @@ Script to manage the [fast.ai](https://github.com/fastai/courses) network infras
 # Setup
 
 1. [Install Terraform](https://www.terraform.io/intro/getting-started/install.html)
-2. Create a key-pair  
+2. [Create a key-pair](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)  
 
     ```
     $ ssh-keygen   
