@@ -1,4 +1,4 @@
-Script to manage the [fast.ai](https://github.com/fastai/courses) network infrastructure on AWS using Terraform.
+Script to manage the [fast.ai](https://github.com/fastai/courses) network infrastructure on an AWS VPC using Terraform.
 
 # Setup
 
